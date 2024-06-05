@@ -7,5 +7,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
+  console.log('Prueba');
   console.log(`Server http://localhost:${port}`)
 })
